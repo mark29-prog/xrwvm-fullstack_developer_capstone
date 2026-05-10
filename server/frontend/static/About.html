@@ -1,14 +1,20 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+
+<body>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarText" aria-controls="navbarText"
+              aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -24,45 +30,69 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="about-header">
+      <h1>About Us</h1>
+      Welcome to Best Cars Dealership, where finding the right vehicle is simple and stress-free.
+      <br>
+      We offer a carefully selected inventory of both domestic and imported cars, all competitively
+      priced to provide great value. Whether you're looking for a reliable daily driver, a family SUV,
+      or a premium vehicle, our team is here to help you find a car that fits your needs and budget.
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin: auto; justify-content: space-around; width: 100%;">
+
+      <!-- General Manager -->
+      <div class="card" style="width: 30%; margin: 10px;">
+        <img class="card-img-top"
+             src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80"
+             alt="James Carter">
         <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+          <p class="title">James Carter</p>
+          <p>General Manager</p>
+          <p class="card-text">
+            James has over 15 years of experience in the automotive industry and is committed
+            to delivering exceptional customer service.
+          </p>
+          <p>james.carter@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <!-- Sales Manager -->
+      <div class="card" style="width: 30%; margin: 10px;">
+        <img class="card-img-top"
+             src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80"
+             alt="Sarah Mitchell">
         <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+          <p class="title">Sarah Mitchell</p>
+          <p>Sales Manager</p>
+          <p class="card-text">
+            Sarah specializes in helping customers find the perfect vehicle while ensuring a
+            smooth and transparent buying experience.
+          </p>
+          <p>sarah.mitchell@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <!-- Customer Relations -->
+      <div class="card" style="width: 30%; margin: 10px;">
+        <img class="card-img-top"
+             src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80"
+             alt="Michael Rodriguez">
         <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+          <p class="title">Michael Rodriguez</p>
+          <p>Customer Relations Specialist</p>
+          <p class="card-text">
+            Michael ensures every customer receives personalized support before, during,
+            and after their vehicle purchase.
+          </p>
+          <p>michael.rodriguez@bestcars.com</p>
         </div>
       </div>
+
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
+</body>
 </html>

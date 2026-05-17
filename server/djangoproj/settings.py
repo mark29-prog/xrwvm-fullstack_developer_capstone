@@ -31,8 +31,11 @@ DEBUG = True
 ALLOWED_HOSTS=['localhost',
 'https://afriyiemark1-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
 
-CSRF_TRUSTED_ORIGINS=['https://afriyiemark1-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.cognitiveclass.ai",
+    "https://*.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai",
+    "https://*.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai",
+]
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
 }

@@ -12,6 +12,10 @@ urlpatterns = [
     # logout
     path('logout', views.logout_request, name='logout'),
 
+    #get cars
+    path(route='get_cars', view=views.get_cars, name ='getcars'),
+
+
     # register (MISSING BEFORE — IMPORTANT)
     path('register', views.registration, name='register'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
